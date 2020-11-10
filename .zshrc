@@ -128,3 +128,8 @@ PATH=$PATH:/home/janc/.local/bin
 export CBX_TOKEN=672142ce631cdd31dd12026637b2cff1c896b014
 export CBX_API_KEY=8934ur98iuhfq873q8f7gq347tq43r78gq34
 export CBX_API_SECRET=iojwef8u23r723r782fywefuygwef6g2f
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
