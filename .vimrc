@@ -29,6 +29,7 @@ nnoremap <Leader>q :bd<CR>
 nnoremap <leader>g <C-]>
 nnoremap <leader>s :Ggr<space>
 nnoremap <leader>d :Ggr <cword><CR>
+nnoremap q <c-v>
 
 " Plugins
 call plug#begin('~/.vim/plugged')
